@@ -1,0 +1,7 @@
+module CallHiServer {
+
+	interface CallTestClient
+	{
+	   string Calltest1(string app_id, long freetype);
+	};
+};

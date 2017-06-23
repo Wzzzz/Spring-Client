@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: qq-central:taf-server:3.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://F:/maven/LocalWarehouse/qq-central/taf-server/3.0.0-SNAPSHOT/taf-server-3.0.0-20161008.070609-16.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://F:/maven/LocalWarehouse/qq-central/taf-server/3.0.0-SNAPSHOT/taf-server-3.0.0-20161008.070609-16-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://F:/maven/LocalWarehouse/qq-central/taf-server/3.0.0-SNAPSHOT/taf-server-3.0.0-20161008.070609-16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

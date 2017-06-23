@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>qq-central</groupId>
+    <artifactId>jce2java</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>qq-central</groupId>
+                <artifactId>maven-taf-plugin</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+                <configuration>
+                    <appName>QD</appName>
+                    <serverName>HiServer</serverName>
+                    <objName>HiObj</objName>
+                    <!--<cloud>true</cloud>-->
+                    <withServant>true</withServant>
+                    <jceFiles>
+                        <jceFile>WEB-INF/jce/wang.jce</jceFile>
+                    </jceFiles>
+                    <srcPath>WEB-INF/src/java</srcPath>
+                    <jceFileCharset>UTF-8</jceFileCharset>
+                    <packagePrefixName>com.qq.qd.server</packagePrefixName>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

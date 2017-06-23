@@ -1,0 +1,7 @@
+module HiServer {
+
+	interface TestClient
+	{
+	   string test1(string app_id, long freetype);
+	};
+};

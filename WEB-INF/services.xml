@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services>
+	<service name="HiObj">
+	  <home-api>com.qq.qd.server.callhiserver.CallTestClientServant</home-api>
+	  <home-class>com.qq.qd.server.callhiserver.CallTestClientServantImpl</home-class>
+	</service>
+</services>
